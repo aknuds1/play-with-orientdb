@@ -1,17 +1,16 @@
 import sbt._
 import Keys._
-import PlayProject._
 
 object ApplicationBuild extends Build {
 
-    val appName         = "Play with OrientDB"
+    val appName         = "play-with-orientdb"
     val appVersion      = "1.0-SNAPSHOT"
 
     // IMPORTANT. The plugin can't be compiled without this
-    val orientDBVersion = "1.3.0-SNAPSHOT"
+    val orientDBVersion = "1.6.4"
 
     val appDependencies = Seq(
-      javaCore
+      //javaCore
 
       // disable JDBC and javaEBean
       //javaJdbc,
